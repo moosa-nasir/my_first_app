@@ -1,6 +1,9 @@
 source 'http://rubygems.org'
 
 gem 'rails', '3.2.8'
+gem 'mysql2', '0.3.11'
+gem 'mysql'
+gem 'rb-readline'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -35,4 +38,4 @@ gem 'jquery-rails'
 # gem 'capistrano'
 
 # To use debugger
-# gem 'debugger'
+ gem 'debugger'
